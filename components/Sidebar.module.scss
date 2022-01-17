@@ -1,0 +1,28 @@
+.Container {
+  background-color: #fff;
+  min-width: 350px;
+  max-width: 450px;
+  height: 100%;
+}
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 80px;
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+}
+.avatar {
+  cursor: pointer;
+  :hover {
+    opacity: 0.8;
+  }
+}
+.iconsGroup {
+  display: flex;
+}

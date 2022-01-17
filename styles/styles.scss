@@ -1,0 +1,73 @@
+// Variables
+$background: rgba(0, 150, 136, 1);
+$white_bg: rgba(215, 219, 214, 1);
+$textColor1: #727272;
+$textColor2: #b7b9bb;
+
+//Fonts
+@font-face {
+  font-family: SegoeUi;
+  src: url("../public/assets/fonts/segoeui.ttf");
+}
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: SegoeUi;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: $background;
+  background: linear-gradient(
+    180deg,
+    $background 0%,
+    $background 15%,
+    $white_bg 15%,
+    $white_bg 130%
+  );
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8fafc;
+  width: 100%;
+  height: 100%;
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .layout-container {
+    display: flex;
+    width: 85vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 1rem 0.05rem rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    @media (max-width: 1440px) {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+    }
+  }
+}
+
+.chat-box {
+  width: 50%;
+  text-align: center;
+  h2 {
+    color: $textColor1;
+  }
+  p {
+    color: $textColor2;
+  }
+}
