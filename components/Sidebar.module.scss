@@ -26,3 +26,42 @@
 .iconsGroup {
   display: flex;
 }
+
+.searchChat {
+  background-color: #f6f6f6;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  border-bottom: 1px solid #ededed;
+  background: white;
+}
+
+.searchInput {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background: #9de1fe;
+}
+
+.notificationAvatar {
+  background-color: white;
+}
+
+.notificationText {
+  display: flex;
+  flex-direction: column;
+}
